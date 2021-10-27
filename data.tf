@@ -6,3 +6,4 @@ data "aws_ami" "ubuntu" {
 output "UBUNTU_AMI" {
   value = "${data.aws_ami.ubuntu.id}"
 }
+
