@@ -2,7 +2,7 @@ resource "aws_autoscaling_group" "example" {
   availability_zones = [
     "us-east-1a",
     "us-east-1b",
-    "us-east-1c",
+    "us-east-1c",,
   ]
 
   desired_capacity = 1
